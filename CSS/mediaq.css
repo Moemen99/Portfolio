@@ -1,0 +1,178 @@
+@media (max-width:1400px){
+
+}
+
+@media (max-width:1200px){
+    .achievment .part{
+        width: 50%;
+       margin: .625rem 0;
+     }
+     .achievment .part{
+        border-right:  .5008px dashed rgba(0, 0, 0, 0.388);}
+
+}
+
+@media (max-width:992px){
+
+    /* ========nav============ */
+    .navigation .container .navigation-menu {
+        position: absolute;
+        top: 100%;
+        flex-direction: column;
+        margin-left: 1.25rem;
+        width: 85%;
+        max-height: 0;
+        overflow: hidden;
+        transition: 1s;
+        
+    }
+    .navigation #bars:checked + .navigation-menu{
+        max-height: 100vh;
+        }
+
+    .navigation .container .navigation-menu  li{
+        padding: .625rem;
+        background-color:rgba(0, 0, 0, 0.752);
+        border-radius: .625rem;
+        margin: .125rem;
+    }
+    .navigation .container .navigation-menu a{
+        display: block;
+        width: 100%;
+
+    }
+    .navigation label{
+        display: block;
+        }
+
+        .navigation .container label:checked .navigation-menu{
+         display: block;
+        }
+
+        /* ==========nav============ */
+
+        /* =========about=========== */
+
+        .know-me .know-me-txt .txt-1{
+            width: 100%;
+            
+            }
+
+            .know-me .know-me-txt .txt-2{
+                width: 100%;
+             }
+        .achievment .part{
+            width: 100%;
+        }
+             
+             
+            
+        /* =========about============== */
+
+        /* ======what i do========= */
+        .what-ido .services .service{
+            width: 100%;
+        }
+         /* ======what i do========= */
+
+        /* ===================resume======== */
+        .resume .resume-text .part{
+            width: 100%;
+        }
+
+        /* =========================resume======= */
+
+       
+        
+        .skills .progress{
+            width: 100%;
+        }
+
+        .portfolio .art .section{
+            width: 100%;
+
+          }
+          .feeds .feed{
+            margin: .625rem;
+            width: 100%;
+          }
+          .contact .message .address{
+               width: 100%;
+               order: 1;
+          }
+          .contact .message .note{
+            width: 100%;
+            
+         }
+         .foot .container p {
+            
+            width: 100%;
+         }
+         .foot .container p {
+            justify-content: center;
+         }
+         .order1{
+            order: 1;
+         }
+         .order2{
+            order: 2;
+         }
+         
+         .order3{
+            order: 3;
+         }
+         .order4{
+            order: 4;
+         }
+         .order5{
+            order: 5;
+         }
+         .order6{
+            order: 6;
+         }
+         .order7{
+            order: 7;
+         }
+}
+
+@media (max-width:780px){
+
+   
+    .know-me .heading h2 ,
+    .what-ido .heading h2,
+    .contact .heading h2,
+    .resume .heading h2,
+    .portfolio .heading h2,
+    .testimonial .heading h2
+    {
+        font-size: 80px;
+    }
+
+   
+
+   
+
+   
+
+   
+}
+
+
+@media (max-width:576px){
+    
+    .what-ido .heading h2,
+    .resume .heading h2,
+    .contact .heading h2,
+    .portfolio .heading h2,
+    .testimonial .heading h2{
+        font-size: 70px;
+    }
+    .know-me .heading h2{
+        font-size: 3.75rem;
+    }
+    .know-me .heading h4{
+        font-size: 1.5625rem;
+    }
+    
+}
+
